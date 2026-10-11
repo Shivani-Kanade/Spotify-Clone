@@ -3,7 +3,7 @@ let progressBar = document.getElementById('progress-bar');
 let audio = new Audio('Audio/Bairan-Bairan-(128 kbps).mp3');
 let currentSong = 1;
 
-//  PLAY / PAUSE 
+/  PLAY / PAUSE 
 
 play.addEventListener('click', () => {
 
@@ -24,7 +24,7 @@ play.addEventListener('click', () => {
 
 });
 
-//PROGRESS BAR 
+/PROGRESS BAR 
 
 audio.addEventListener('timeupdate', () => {
 
@@ -55,35 +55,35 @@ progressBar.addEventListener('input', function () {
     }
 
 });
-//  SONG DATA 
+/  SONG DATA 
 let songs = [
 
     
-    {songName: 'Barsaat',songDes: 'Jo tu manne chod ke gya',songImage: 'assets/images/new1',songPath: 'assets/Audio/Barsaat.mp3.mpeg'  },
-    {songName: 'Abhi Kuch dino se',songDes: 'Relaxing Song',songImage: 'assets/images/3.jpg',songPath: 'assets/Audio/akds.mpeg'  },
-    {songName: 'BTS',songDes: 'DNA - Wins MV award ',songImage: 'assets/images/bts.jpg',songPath: 'assets/Audio/Bts.mp3' },
-    {songName: 'Soft Tune',songDes: 'Sitar',songImage: 'assets/images/16.jpg',songPath: 'assets/Audio/16.mp3'  },
-    {songName: 'Bairan',songDes: 'Gita bhi gai mane chati se lagayi manne',songImage: 'assets/images/8.jpg',songPath: 'assets/Audio/Bairan.mp3'  },
-    {songName: 'Paaro',songDes: 'This is the description for song ',songImage: 'assets/images/9.jpg',songPath: 'assets/Audio/Paro.mp3'  },
-    {songName: 'Agar Tum Saath Ho',songDes: 'This is the description for song ',songImage: 'assets/images/10.jpg',songPath: 'assets/Audio/atsh.mp3'  },
-    {songName: 'Guitar',songDes: 'This is the description for song ',songImage: 'assets/images/11.jpg',songPath: 'assets/Audio/atsh.mp3'  },
-    {songName: 'BTS',songDes: '',songImage: 'assets/images/bts.jpg',songPath: 'assets/Audio/Bts.mp3' },
-    {songName: 'BTS',songDes: '',songImage: 'assets/images/bts.jpg',songPath: 'assets/Audio/Bts.mp3' },
-    {songName: 'KK',songDes: '',songImage: 'assets/images/kk.jpg',songPath: 'assets/Audio/kk.mpeg'  },
-    {songName: 'Arijit Singh',songDes: '',songImage: 'assets/images/arijit.webp',songPath: 'assets/Audio/atsh.mp3' },
-    {songName: 'Justein Beiber',songDes: '',songImage: 'assets/images/justein.webp',songPath: 'assets/Audio/13.mp3'  },
-    {songName: 'Ariana Grande',songDes: '',songImage: 'assets/images/ariana.webp',songPath: 'assets/Audio/14.mp3'  },
-    {songName: 'Aditya Rikhari',songDes: '',songImage: 'assets/images/aditya.jpg',songPath: 'assets/Audio/Paro.mp3'  }, 
-     {songName: 'Abhi Kuch Dino se',songDes: 'Calm Song',songImage: 'assets/images/new2.webp',songPath: 'assets/Audio/akds.mpeg'  },   
-    {songName: 'Guitar',songDes: 'This is the description for song ',songImage: 'assets/images/17.jpg',songPath: 'assets/Audio/17.mp3'  },
-    {songName: 'Tune',songDes: 'This is the description for song ',songImage: 'assets/images/18.jpg',songPath: 'assets/Audio/18.mp3'  },
-     {songName: 'Lofi',songDes: 'This is the description for song ',songImage: 'assets/images/2.jpg',songPath: 'assets/Audio/2.mp3'  },
-    {songName: 'Western',songDes: 'This is the description for song ', songImage: 'assets/images/1.jpg',songPath: 'assets/Audio/1.mp3' }
+    {songName: 'Barsaat',songDes: 'Jo tu manne chod ke gya',songImage: 'assets/images/new1',songPath: 'audio/Barsaat.mp3.mpeg'  },
+    {songName: 'Abhi Kuch dino se',songDes: 'Relaxing Song',songImage: 'assets/images/3.jpg',songPath: 'audio/akds.mpeg'  },
+    {songName: 'BTS',songDes: 'DNA - Wins MV award ',songImage: 'assets/images/bts.jpg',songPath: 'audio/Bts.mp3' },
+    {songName: 'Soft Tune',songDes: 'Sitar',songImage: 'assets/images/16.jpg',songPath: 'audio/16.mp3'  },
+    {songName: 'Bairan',songDes: 'Gita bhi gai mane chati se lagayi manne',songImage: 'assets/images/8.jpg',songPath: 'audio/Bairan.mp3'  },
+    {songName: 'Paaro',songDes: 'This is the description for song ',songImage: 'assets/images/9.jpg',songPath: 'audio/Paro.mp3'  },
+    {songName: 'Agar Tum Saath Ho',songDes: 'This is the description for song ',songImage: 'assets/images/10.jpg',songPath: 'audio/atsh.mp1'  },
+    {songName: 'Guitar',songDes: 'This is the description for song ',songImage: 'assets/images/11.jpg',songPath: 'audio/atsh.mp3'  },
+    {songName: 'BTS',songDes: '',songImage: 'assets/images/bts.jpg',songPath: 'audio/Bts.mp3' },
+    {songName: 'BTS',songDes: '',songImage: 'assets/images/bts.jpg',songPath: 'audio/Bts.mp3' },
+    {songName: 'KK',songDes: '',songImage: 'assets/images/kk.jpg',songPath: 'audio/kk.mpeg'  },
+    {songName: 'Arijit Singh',songDes: '',songImage: 'assets/images/arijit.webp',songPath: 'audio/atsh.mp3' },
+    {songName: 'Justein Beiber',songDes: '',songImage: 'assets/images/justein.webp',songPath: 'audio/13.mp3'  },
+    {songName: 'Ariana Grande',songDes: '',songImage: 'assets/images/ariana.webp',songPath: 'audio/14.mp3'  },
+    {songName: 'Aditya Rikhari',songDes: '',songImage: 'assets/images/aditya.jpg',songPath: 'audio/Paro.mp3'  }, 
+     {songName: 'Abhi Kuch Dino se',songDes: 'Calm Song',songImage: 'assets/images/new2.webp',songPath: 'audio/akds.mpeg'  },   
+    {songName: 'Guitar',songDes: 'This is the description for song ',songImage: 'assets/images/17.jpg',songPath: 'audio/17.mp3'  },
+    {songName: 'Tune',songDes: 'This is the description for song ',songImage: 'assets/images/18.jpg',songPath: 'audio/18.mp3'  },
+     {songName: 'Lofi',songDes: 'This is the description for song ',songImage: 'assets/images/2.jpg',songPath: 'audio/12.mp3'  },
+    {songName: 'Western',songDes: 'This is the description for song ', songImage: 'assets/images/1.jpg',songPath: 'audio/1.mp3' }
 ];
-// SONG ORDER 
+/ SONG ORDER 
 
 let order = [...songs];
-//  MUSIC CARDS 
+/  MUSIC CARDS 
 
 let allMusic = Array.from(
     document.getElementsByClassName('music-card')
@@ -112,7 +112,7 @@ allMusic.forEach((element, i) => {
     }
 
 });
-//  CLICK ON SONG CARD / PICTURE 
+/  CLICK ON SONG CARD / PICTURE 
 
 allMusic.forEach((card, i) => {
 
@@ -149,7 +149,7 @@ allMusic.forEach((card, i) => {
     });
 
 });
-//  CARD PLAY BUTTONS 
+/  CARD PLAY BUTTONS 
 let playMusic = Array.from(
     document.getElementsByClassName('playMusic')
 );
@@ -196,16 +196,16 @@ playMusic.forEach((element) => {
 
 });
 
-//  SHUFFLE / REPEAT 
+/  SHUFFLE / REPEAT 
 
 let shuffle = document.getElementById('shuffle');
 let repeat = document.getElementById('repeat');
 
 let songOnShuffle = false;
 let songOnRepeat = false;
-//  NOW PLAYING BAR 
+/  NOW PLAYING BAR 
 let nowBar = document.querySelector('.now-bar');
-//  SHUFFLE FUNCTION 
+/  SHUFFLE FUNCTION 
 
 function shuffleSongs(originalOrder) {
 
@@ -222,7 +222,7 @@ function shuffleSongs(originalOrder) {
 
     return shuffled;
 }
-// SHUFFLE BUTTON 
+/ SHUFFLE BUTTON 
 
 shuffle.addEventListener('click', () => {
 
@@ -246,7 +246,7 @@ shuffle.addEventListener('click', () => {
     }
 
 });
-// REPEAT BUTTON 
+/ REPEAT BUTTON 
 repeat.addEventListener('click', () => {
 
     if (!songOnRepeat) {
@@ -265,7 +265,7 @@ repeat.addEventListener('click', () => {
     }
 
 });
-// NEXT SONG 
+/ NEXT SONG 
 
 function playNextSong() {
 
@@ -298,7 +298,7 @@ function playNextSong() {
     updateNowBar();
 
 }
-//  PREVIOUS SONG 
+/  PREVIOUS SONG 
 
 function playPrevSong() {
 
@@ -323,7 +323,7 @@ function playPrevSong() {
     updateNowBar();
 
 }
-//  UPDATE NOW BAR 
+/  UPDATE NOW BAR 
 function updateNowBar() {
 
     if (!nowBar) {
@@ -355,7 +355,7 @@ function updateNowBar() {
         description.innerText = song.songDes;
     }
 }
-//  NEXT / PREVIOUS BUTTON
+/  NEXT / PREVIOUS BUTTON
 let forward = document.getElementById('forward');
 let backward = document.getElementById('backward');
 if (forward) {
@@ -368,7 +368,7 @@ if (backward) {
         playPrevSong();
     });
 }
-// SONG ENDED 
+/ SONG ENDED 
 
 audio.addEventListener('ended', () => {
 
