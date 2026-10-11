@@ -27,9 +27,8 @@ spotify-clone/
 ├── index.html
 ├── style.css
 ├── script.js
-├── assets/
-│   ├── images/
-│   └── Audios/
+├──  images/
+├── audios/
 └── README.md
 ```
 
